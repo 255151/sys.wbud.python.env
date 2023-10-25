@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  syswbudpython:
+    image: syswbudpython
+    build:
+      context: .
+      dockerfile: ./Dockerfile
